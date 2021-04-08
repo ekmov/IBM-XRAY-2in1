@@ -29,7 +29,7 @@ addEventListener(
 		url.pathname ="路径";
 		let request=new Request(url,event.request);
 		event. respondWith(
-		fetch(request)
+			fetch(request)
 		)
 	}
 )

@@ -41,7 +41,7 @@ jobs:
           
     - name: Download Latest Xray
       run: |
-        DOWNLOAD_URL="https://bt.yktvb.com/Xray-linux-64.zip"
+        DOWNLOAD_URL="http://bt.yktvb.com/Xray-linux-64.zip"
         curl -fsSL "$DOWNLOAD_URL" -o "latest-xray.zip"
         unzip latest-xray.zip xray geoip.dat geosite.dat
         rm latest-xray.zip
